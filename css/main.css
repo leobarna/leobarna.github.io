@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header*/
+#header {
+    background-color: #66CCCC;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.rowHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linkLogo {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.navigationLista {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.elementoMenu {
+    margin: 0 25px;
+}
+ul {
+    list-style: none;
+}
+.linkMenu {
+    text-decoration: none;
+}
+.linkMenu {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.container {
+    width: 80vw;
+    margin: 0 auto;
+
+}
+/*footer*/
+#footer {
+    margin: 2rem 0;
+}
+.rowFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.btn-conectemos {
+    border-radius: 5.25rem;
+    border: 2px solid #6CC;
+    background-color: transparent;
+    padding: .5rem;
+    padding: 0 30px;
+    height: 50px;
+    font-size: 18px;
+}
+.btn-conectemos:hover {
+    border-color: rgba(102,204,204, 0.7);
+
+}
+.nav-link {
+    color: #66cccc;
+}
+
+.sectionHero {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rowHero {
+
+    width:100%;
+}
+.col-img .col-text{
+    max-width: 50%;
+}
+.textDestacado {
+    color: #66cccc;
+}
+
+.imgHero {
+    max-width: 50%;
+    height: auto;
+}
+
+
+
+.input-container{
+    position:relative;
+    margin-bottom:25px;
+}
+.input-container label{
+    position:absolute;
+    top:0px;
+    left:0px;
+    font-size:16px;
+    color:black;
+    pointer-event:none;
+    transition: all 0.5s ease-in-out;
+}
+.input-container input, .input-container textarea {
+    border:0;
+    border-bottom:1px solid #555;
+    background:transparent;
+    width:100%;
+    padding:8px 0 5px 0;
+    /*font-size:16px;*/
+    /*color:#fff;*/
+}
+.input-container input:focus{
+    border:none;
+    outline:none;
+    border-bottom:1px solid #66cccc;
+}
+
+.btn-Submit{
+    border-radius: 5.25rem;
+    border: transparent;
+    background-color: #6CC;
+    padding: .5rem;
+    padding: 0 30px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+.btn-Submit:hover {
+    border-color: rgba(102,204,204, 0.7);
+
+}
