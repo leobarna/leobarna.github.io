@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap');
 * {
     margin: 0;
 }
@@ -64,7 +65,6 @@ a {
     border-radius: 5.25rem;
     border: 2px solid #6CC;
     background-color: transparent;
-    padding: .5rem;
     padding: 0 30px;
     height: 50px;
     font-size: 18px;
@@ -76,7 +76,7 @@ a {
 .nav-link {
     color: #66cccc;
 }
-
+/*index*/
 .sectionHero {
     height: 600px;
     display: flex;
@@ -87,13 +87,17 @@ a {
 
     width:100%;
 }
-.col-img .col-text{
-    max-width: 50%;
-}
+/*.col-img .col-text{*/
+/*    max-width: 50%;*/
+/*}*/
 .textDestacado {
     color: #66cccc;
+    font-family: 'Playfair Display', serif;
 }
-
+.textTitulo{
+    font-family: 'Playfair Display', serif;
+font-size: 80px;
+}
 .imgHero {
     max-width: 50%;
     height: auto;
@@ -107,11 +111,10 @@ a {
 }
 .input-container label{
     position:absolute;
-    top:0px;
-    left:0px;
+    top:0;
+    left:0;
     font-size:16px;
     color:black;
-    pointer-event:none;
     transition: all 0.5s ease-in-out;
 }
 .input-container input, .input-container textarea {
@@ -133,7 +136,6 @@ a {
     border-radius: 5.25rem;
     border: transparent;
     background-color: #6CC;
-    padding: .5rem;
     padding: 0 30px;
     height: 50px;
     font-size: 18px;
@@ -143,4 +145,34 @@ a {
 .btn-Submit:hover {
     border-color: rgba(102,204,204, 0.7);
 
+}
+
+/*bio*/
+.sectionBlog {
+    padding: 100px;
+    display: flex;
+}
+.rowBio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-img {
+    width: 25%;
+    height: auto;
+    margin-right: 2.5rem;
+}
+
+img.imgBio {
+    width: 100%;
+}
+.contenidoTitulo{
+    font-size: 48px;
+    color: #4a4b65;
+    font-family: 'Playfair Display', serif;
+}
+.contenidoParrafo{
+    font-size: 30px;
+    color: #9e9fb4;
+    font-family: 'Roboto', sans-serif;
 }
